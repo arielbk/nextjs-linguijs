@@ -384,6 +384,17 @@
     make-plural "^6.2.2"
     messageformat-parser "^4.1.3"
 
+"@lingui/loader@^3.14.0":
+  version "3.14.0"
+  resolved "https://registry.yarnpkg.com/@lingui/loader/-/loader-3.14.0.tgz#f8f00532f1788ffcccb76ec89f742d4714bc4b0f"
+  integrity sha512-FH14MexRLM8tBgSL1oK5dbaUBbY0P85CSLTNwFqAtFFj8K8wWxfdq4+rIkp/kSD+eggKNDYV4G89N9/3bsm3gQ==
+  dependencies:
+    "@babel/runtime" "^7.11.2"
+    "@lingui/cli" "^3.14.0"
+    "@lingui/conf" "^3.14.0"
+    loader-utils "^2.0.0"
+    ramda "^0.27.1"
+
 "@lingui/macro@^3.14.0":
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/@lingui/macro/-/macro-3.14.0.tgz#4d97cd548967c2b4b2b2f92715eec4d69e84545c"
@@ -783,6 +794,11 @@ bcp-47@^1.0.7:
     is-alphanumerical "^1.0.0"
     is-decimal "^1.0.0"
 
+big.js@^5.2.2:
+  version "5.2.2"
+  resolved "https://registry.yarnpkg.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
+  integrity sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==
+
 binary-extensions@^2.0.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
@@ -1101,6 +1117,11 @@ emoji-regex@^9.2.2:
   version "9.2.2"
   resolved "https://registry.yarnpkg.com/emoji-regex/-/emoji-regex-9.2.2.tgz#840c8803b0d8047f4ff0cf963176b32d4ef3ed72"
   integrity sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg==
+
+emojis-list@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/emojis-list/-/emojis-list-3.0.0.tgz#5570662046ad29e2e916e71aae260abdff4f6a78"
+  integrity sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==
 
 error-ex@^1.3.1:
   version "1.3.2"
@@ -1928,7 +1949,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.2.1:
+json5@^2.1.2, json5@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.1.tgz#655d50ed1e6f95ad1a3caababd2b0efda10b395c"
   integrity sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==
@@ -1979,6 +2000,15 @@ lines-and-columns@^1.1.6:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.2.4.tgz#eca284f75d2965079309dc0ad9255abb2ebc1632"
   integrity sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==
+
+loader-utils@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/loader-utils/-/loader-utils-2.0.2.tgz#d6e3b4fb81870721ae4e0868ab11dd638368c129"
+  integrity sha512-TM57VeHptv569d/GKh6TAYdzKblwDNiumOdkFnejjD0XwTH87K90w3O7AiJRqdQoXygvi1VQTJTLGhJl7WqA7A==
+  dependencies:
+    big.js "^5.2.2"
+    emojis-list "^3.0.0"
+    json5 "^2.1.2"
 
 locate-path@^3.0.0:
   version "3.0.0"
