@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Welcome to <0>Next.js!</0>":"Dobro došli u <0>Next.js!</0>"}};
